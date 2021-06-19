@@ -35,8 +35,10 @@ import { clickevent } from './lib/clickevent.js';
 // beep();
 
 document.body.addEventListener("click",clickevent);
-   
-window.onload = () => {
+  
+document.addEventListener('DOMContentLoaded', starttime);   
+
+  window.onload = () => {
   'use strict';
 
   if ('serviceWorker' in navigator) {
