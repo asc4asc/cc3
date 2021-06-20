@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}  
+
 clock {
   /* Computer Font not like a book for the APP */
   font-family: sans-serif; 
@@ -5,7 +9,6 @@ clock {
   color: black;
   padding: 15px;
   width: 100%;
-  text-align: center;
 }
 
 /* The text in the apps Website */
